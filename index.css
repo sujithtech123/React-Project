@@ -1,0 +1,305 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ /* Layout Page */
+.Layout{
+  display: flex;
+  font-size: 17px;
+  padding: 30px;
+  height:110px;
+  gap: 70px;
+  background-color: rgb(234, 239, 229);
+  position: static;
+}
+.Layout a:hover{
+  color:black;
+}
+.Layout a{
+  color:orangered;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+
+ /* Home Page */
+ .Watch1 img{
+  margin-left: 250px;
+  padding: 20px;
+ }
+.Watch1{
+  display: flex;
+  background-color: azure;
+}
+.Watch1 h1{
+  color: rgb(210, 16, 152);
+  font-weight: bolder;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-seri;
+  margin-left: 150px;
+  margin-top: 250px;
+}
+.Watch1 p{
+  margin-left: 100px;
+  color: rgb(210, 43, 24);
+}
+.Watch1 button{
+  margin-left: 150px;
+}
+.Watch2 {
+  display: flex;
+  gap: 50px;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  margin-left: 50px;
+}
+.Watch3 img{
+  position:absolute;
+  z-index: -1;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.Watch3 h1 {
+  margin-left: 500px;
+  padding-top: 200px;
+  color:whitesmoke;
+}
+.Watch4{
+  font-weight: bolder;
+  font-size: x-large;
+  background-color:white;
+  margin-top: 300px;
+}
+.Watch4 img{
+  display: inline;
+}
+.Fooder{
+  color: white;
+  height: 200px;
+ background-color: rgb(60, 47, 76);
+ display: flex;
+ gap: 100px;
+ margin-top: 60px;
+}
+.Fooder img{
+  margin-top: 20px;
+}
+.Fooder1{
+  margin-top: 40px;
+}
+.Fooder1 i{
+  font-size: x-large;
+  padding: 30px;
+}
+  
+/* Product Page */
+
+.Product{
+  display: inline;
+  margin-left: 600px;
+}
+
+ /* Addprouuct */
+
+ .Addproduct{
+  position: relative;
+  top: 100px;
+  left: 600px;
+  width: 300px;
+  border: 3px solid silver;
+  border-radius: 5px;
+  margin: 10px o 18px 0;
+  padding: 0 20px;
+  height: 400px;  
+ }
+ .Addproduct legend{
+  font-size: larger;
+  color: green;
+ }
+ .Addproduct button{
+  background-color: rgb(41, 227, 28);
+  color: white;
+  margin: 30px 10px;
+  width: 50%;
+  margin-left: 70px;
+  font-size: 15px;
+ }
+ .Addproduct1{
+  color: blueviolet;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+ }
+
+ /* Addcatagries */
+
+ .Addcatagries{
+  background-color: darkorange;  
+  position: relative;
+  top: 100px;
+  left: 600px;
+  width: 300px;
+  border: 3px solid silver;
+  border-radius: 5px;
+  box-shadow: black;
+  margin: 10px o 18px 0;
+  padding: 0 20px;
+  height: 300px;  
+ }
+ .Addcatagries h1{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: blueviolet;
+ }
+ .Addcatagries legend{
+  font-size: larger;
+  color: green;
+ }
+ .Addcatagries button{
+  background-color: rgb(41, 227, 28);
+  color: white;
+  margin: 10px 5px;
+  width: 50%;
+  margin-left: 70px;
+  font-size: 15px;
+ }
+/* Login Page */
+
+.Login{
+  align-items: center;
+  color: blueviolet;
+}
+.User{
+  color: green;
+  font-size: large;
+}
+.log{
+background-color:sandybrown;  
+position: relative;
+top: 100px;
+left: 600px;
+width: 300px;
+border: 3px solid silver;
+border-radius: 5px;
+box-shadow: black;
+margin: 10px o 18px 0;
+padding: 0 20px;
+height: 400px;
+}
+button{
+ font-size: 15px;
+ font-weight: bold;
+ margin: 10px 0px;
+ padding: 2px 20px;
+ width: 30%;
+ border: 0;
+ border-radius: 5px;
+ background-color: green;
+ color: antiquewhite;
+} 
+
+/* Register page */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Registerbody{
+  background-color: rgb(185, 145, 94);
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+.outer{
+  display: flex;
+  gap: 100px;
+}
+.inner1{
+  background-color: antiquewhite;
+  height: 600px;
+  width: 300px;
+  padding: 40px;
+  border-radius: 10px;
+  transform: rotate(10deg);
+  animation-duration: 6s;
+  animation-name: bg;
+  transform-origin: top;
+}
+@keyframes bg {
+  0%{
+      transform: rotate(10deg);
+  }
+  30%{
+      transform: rotate(-50deg);
+  }
+  70%{
+      transform: rotate(30deg);
+  }
+  100%{
+      transform: rotate(10deg);
+  }
+}
+.image3{
+  position: absolute;
+  margin-left: 530px;
+  z-index: 2;
+}
+.inner1 h1{
+  font-size: 25px;
+}
+.inner1 p{
+  font-size: 15px;
+}
+.inner1 button{
+  width: 100%;
+  height: 40px;
+  background-color: black;
+  color: silver;
+}
+.image{
+  margin-left: 140px;
+  margin-top: -10px;
+  position: absolute;
+  z-index: 1;
+}
+.image1{
+  margin-top: 60px;
+  margin-left: -70px;
+  position: absolute;
+  z-index: 1;
+}
+.inner2{
+  position: relative;
+  background-color: antiquewhite;
+  height: 600px;
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  transform: rotate(-20deg);
+}
+.inner2 h1{
+  font-size: 25px;
+}
+.inner2 input{
+  margin-top:20px ;
+  width: 100%;
+  height: 25px;
+  text-align: center;
+  padding: 5px;
+  font-size: 17px;
+}
+.inner2 button{
+  padding: 15px;
+  width: 100%;
+  background-color: black;
+  color: aliceblue;
+}
+.inner2 button:hover{
+  color: orange;
+  text-decoration: underline;
+}
